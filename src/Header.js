@@ -3,11 +3,11 @@ import React from "react"
 function Header() {
     return (
         <header>
-            <img 
-                src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" 
+            <img className="header-img"
+                src="https://files.gamebanana.com/img/ico/sprays/4e68599f1e1ec.png" 
                 alt="Problem?"
             />
-            <p>Meme Generator</p>
+            <h1>Meme Generator - Capstone Project</h1>
         </header>
     )
 }
